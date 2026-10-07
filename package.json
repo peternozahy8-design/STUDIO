@@ -1,0 +1,13 @@
+{
+  "name": "cartoon-what-if-studio",
+  "version": "4.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Static frontend + local worker (Wan I2V, Piper, FFmpeg)",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "worker": "node worker/server.mjs",
+    "start": "node worker/server.mjs",
+    "test:worker": "node worker/test/run.mjs"
+  }
+}
